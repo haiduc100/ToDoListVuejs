@@ -8,7 +8,7 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: "/to-do",
+      path: "/",
       name: "To do list",
       component: () => import("../views/ToDo/ToDoList.vue"),
       meta: {
